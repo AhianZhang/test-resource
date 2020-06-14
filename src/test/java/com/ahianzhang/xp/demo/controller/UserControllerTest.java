@@ -38,7 +38,7 @@ class UserControllerTest {
     @Test
     void should_return_affect_rows_when_post_users() throws Exception {
         // Given
-        Integer affectRows = 2;
+        Integer affectRows = 1;
         doReturn(affectRows).when(userService).createUser(any(User.class));
         User user = User.builder()
                 .name("tom")
@@ -54,9 +54,10 @@ class UserControllerTest {
                 .content(json)
                 .accept(MediaType.APPLICATION_JSON)
         )
-                // TODO: 2020/6/14 change to created status
                 .andExpect(status().isOk())
-                .andReturn();
+                .andDo(print());
+
+
 
     }
 

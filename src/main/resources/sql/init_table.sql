@@ -6,6 +6,6 @@ CREATE TABLE `t_user`  (
   `gender` tinyint(1) NOT NULL,
   `address` varchar(50)  NOT NULL,
   `create_time` datetime(0) NOT NULL,
-  `update_time` datetime(0) NOT NULL DEFAULT  CURRENT_TIMESTAMP UPDATE CURRENT_TIMESTAMP(0),
+  `update_time` datetime(0) NOT NULL DEFAULT  CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP(0),
   PRIMARY KEY (`id`)
 ) ;

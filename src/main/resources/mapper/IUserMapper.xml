@@ -4,9 +4,9 @@
 
     <insert id="createUser" parameterType="com.ahianzhang.xp.demo.entity.User">
        INSERT INTO `t_user`(
-        `name`, `gender`, `address`, `create_time`, `update_time`)
+        `name`, `gender`, `address`, `create_time`)
        VALUES (
-       #{name}, #{gender}, #{address}, #{createTime}, #{updateTime}
+       #{name}, #{gender}, #{address}, #{createTime}
        );
     </insert>
 

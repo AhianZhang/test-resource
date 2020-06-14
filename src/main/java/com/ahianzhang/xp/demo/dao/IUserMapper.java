@@ -15,8 +15,9 @@ public interface IUserMapper {
     /**
      * dao
      * @param user user
+     * @return affect mysql table rows
      */
-    void createUser(User user);
+    Integer createUser(User user);
 
     /**
      * get all users

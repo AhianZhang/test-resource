@@ -1,7 +1,9 @@
 package com.ahianzhang.xp.demo.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author ahianzhang
@@ -10,6 +12,8 @@ import lombok.Data;
  **/
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class User {
     private Integer id;
     private String name;

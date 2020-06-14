@@ -25,7 +25,8 @@ class IUserMapperTest {
     @Test
     void should_pass_when_insert_new_user() {
         User user = new User(null,"sam",1,"北京", Instant.now().toString(),Instant.now().toString());
-        userDao.createUser(user);
+        Integer affectRows = userDao.createUser(user);
+        assertThat(affectRows,is(1));
     }
 
     @Test

@@ -4,6 +4,7 @@ import com.ahianzhang.xp.demo.dao.IUserMapper;
 import com.ahianzhang.xp.demo.entity.User;
 import com.ahianzhang.xp.demo.service.IUserService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,11 +16,16 @@ import java.util.List;
  **/
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class UserServiceImpl implements IUserService {
     private final IUserMapper userDao;
     @Override
-    public void createUser(User user) {
-        userDao.createUser(user);
+    public Integer createUser(User user) {
+        if (user == null){
+            log.warn("user is null");
+            return 0;
+        }
+        return userDao.createUser(user);
     }
 
     @Override

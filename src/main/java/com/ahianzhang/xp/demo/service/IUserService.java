@@ -13,8 +13,9 @@ public interface IUserService {
     /**
      * create user
      * @param user user
+     * @return affect rows
      */
-    public void createUser(User user);
+    public Integer createUser(User user);
 
     /**
      * query all users

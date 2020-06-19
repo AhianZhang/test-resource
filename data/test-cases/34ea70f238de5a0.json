@@ -1,0 +1,60 @@
+{
+  "uid" : "34ea70f238de5a0",
+  "name" : "should_return_affect_rows_when_post_users()",
+  "fullName" : "com.ahianzhang.xp.demo.controller.UserControllerTest.should_return_affect_rows_when_post_users",
+  "historyId" : "5cbdfbafede3a30ff58eecee138875a8",
+  "time" : {
+    "start" : 1592556260794,
+    "stop" : 1592556260881,
+    "duration" : 87
+  },
+  "description" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az58"
+  }, {
+    "name" : "thread",
+    "value" : "2795@fv-az58.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.ahianzhang.xp.demo.controller.UserControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ahianzhang.xp.demo.controller.UserControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "should_return_affect_rows_when_post_users"
+  }, {
+    "name" : "suite",
+    "value" : "com.ahianzhang.xp.demo.controller.UserControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "34ea70f238de5a0.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

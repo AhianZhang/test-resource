@@ -1,60 +1,60 @@
 [ {
-  "uid" : "21b2230f8f2cf386",
-  "name" : "should_pass_when_insert_new_user()",
-  "time" : {
-    "start" : 1592556276784,
-    "stop" : 1592556276884,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cbb16477ac4d2a92",
-  "name" : "should_return_user_list_when_get_all_user()",
-  "time" : {
-    "start" : 1592556272631,
-    "stop" : 1592556273587,
-    "duration" : 956
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "854c4e781c7fc0b7",
-  "name" : "should_return_users_when_query_all_user()",
-  "time" : {
-    "start" : 1592556276888,
-    "stop" : 1592556276934,
-    "duration" : 46
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bfb82855c73038d6",
-  "name" : "should_affect_1_row_when_save_a_user()",
-  "time" : {
-    "start" : 1592556273717,
-    "stop" : 1592556273723,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ed19303ce863abab",
+  "uid" : "6edcb9ed1f6a6c9b",
   "name" : "should_return_affect_rows_when_post_users()",
   "time" : {
-    "start" : 1592556278957,
-    "stop" : 1592556279055,
-    "duration" : 98
+    "start" : 1592559371264,
+    "stop" : 1592559371357,
+    "duration" : 93
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4230f9581be91781",
+  "uid" : "ffcfb964f0b330b1",
+  "name" : "should_return_user_list_when_get_all_user()",
+  "time" : {
+    "start" : 1592559365347,
+    "stop" : 1592559366230,
+    "duration" : 883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f92d96b88e5ccda",
+  "name" : "should_pass_when_insert_new_user()",
+  "time" : {
+    "start" : 1592559369420,
+    "stop" : 1592559369533,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7b970295414f169",
+  "name" : "should_affect_1_row_when_save_a_user()",
+  "time" : {
+    "start" : 1592559366315,
+    "stop" : 1592559366320,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd6702f670433d7f",
   "name" : "should_get_user_list_when_get_all_user()",
   "time" : {
-    "start" : 1592556278812,
-    "stop" : 1592556278943,
-    "duration" : 131
+    "start" : 1592559371126,
+    "stop" : 1592559371252,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "306b242b701ea83",
+  "name" : "should_return_users_when_query_all_user()",
+  "time" : {
+    "start" : 1592559369536,
+    "stop" : 1592559369605,
+    "duration" : 69
   },
   "status" : "passed",
   "severity" : "normal"

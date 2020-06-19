@@ -1,0 +1,84 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "time" : {
+      "start" : 1592549345973,
+      "stop" : 1592549351138,
+      "duration" : 5165,
+      "minDuration" : 4,
+      "maxDuration" : 817,
+      "sumDuration" : 1131
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 3,
+    "items" : [ {
+      "uid" : "00eb3a1c8aa1d6b1d927bea51cada103",
+      "name" : "com.ahianzhang.xp.demo.service.IUserServiceTest",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "e7fab609cfb9d01e7260a0d85dca246d",
+      "name" : "com.ahianzhang.xp.demo.dao.IUserMapperTest",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "9609317135428936679af3a2ac1fd9d4",
+      "name" : "com.ahianzhang.xp.demo.controller.UserControllerTest",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ],
+  "behaviors" : {
+    "total" : 6,
+    "items" : [ ]
+  },
+  "executors" : [ {
+    "name" : "Maven",
+    "type" : "maven",
+    "buildName" : "demo"
+  } ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

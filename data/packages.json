@@ -1,0 +1,93 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.ahianzhang.xp.demo",
+    "children" : [ {
+      "name" : "service.IUserServiceTest",
+      "children" : [ {
+        "name" : "should_return_user_list_when_get_all_user",
+        "uid" : "6dbb6ac88aa641",
+        "parentUid" : "e55f4020a0ae75965dbed370bb78743e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592549345973,
+          "stop" : 1592549346790,
+          "duration" : 817
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should_affect_1_row_when_save_a_user",
+        "uid" : "74546672c61025e5",
+        "parentUid" : "e55f4020a0ae75965dbed370bb78743e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592549346883,
+          "stop" : 1592549346887,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "service.IUserServiceTest"
+    }, {
+      "name" : "dao.IUserMapperTest",
+      "children" : [ {
+        "name" : "should_pass_when_insert_new_user",
+        "uid" : "ba3c9b0bd211befb",
+        "parentUid" : "c87df63c7db083f536e9137d957bdc77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592549349316,
+          "stop" : 1592549349406,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should_return_users_when_query_all_user",
+        "uid" : "e549a3f8493392ff",
+        "parentUid" : "c87df63c7db083f536e9137d957bdc77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592549349412,
+          "stop" : 1592549349467,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dao.IUserMapperTest"
+    }, {
+      "name" : "controller.UserControllerTest",
+      "children" : [ {
+        "name" : "should_get_user_list_when_get_all_user",
+        "uid" : "b2b9b58636735550",
+        "parentUid" : "52a44849725cd21f3201c0834ef9d21d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592549350965,
+          "stop" : 1592549351058,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should_return_affect_rows_when_post_users",
+        "uid" : "4706e5e317574e9",
+        "parentUid" : "52a44849725cd21f3201c0834ef9d21d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592549351066,
+          "stop" : 1592549351138,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "controller.UserControllerTest"
+    } ],
+    "uid" : "com.ahianzhang.xp.demo"
+  } ],
+  "name" : "packages"
+}

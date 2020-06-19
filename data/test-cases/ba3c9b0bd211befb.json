@@ -1,0 +1,71 @@
+{
+  "uid" : "ba3c9b0bd211befb",
+  "name" : "should_pass_when_insert_new_user()",
+  "fullName" : "com.ahianzhang.xp.demo.dao.IUserMapperTest.should_pass_when_insert_new_user",
+  "historyId" : "2ad2d8d12ddd1ddd05f12a2b2522a8fe",
+  "time" : {
+    "start" : 1592549349316,
+    "stop" : 1592549349406,
+    "duration" : 90
+  },
+  "description" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az54"
+  }, {
+    "name" : "thread",
+    "value" : "3513@fv-az54.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.ahianzhang.xp.demo.dao.IUserMapperTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ahianzhang.xp.demo.dao.IUserMapperTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "should_pass_when_insert_new_user"
+  }, {
+    "name" : "suite",
+    "value" : "com.ahianzhang.xp.demo.dao.IUserMapperTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "65b6ccc009e96937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592549333314,
+        "stop" : 1592549333405,
+        "duration" : 91
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba3c9b0bd211befb.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

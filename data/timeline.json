@@ -1,85 +1,85 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az54",
+    "name" : "fv-az58",
     "children" : [ {
-      "name" : "3513@fv-az54.main(1)",
+      "name" : "3161@fv-az58.main(1)",
       "children" : [ {
-        "name" : "should_get_user_list_when_get_all_user()",
-        "uid" : "b2b9b58636735550",
-        "parentUid" : "c6dca33c038a86fa19355393c49274a2",
+        "name" : "should_affect_1_row_when_save_a_user()",
+        "uid" : "d9b207251e63fc51",
+        "parentUid" : "748f1f0dcbda43feb38af6794c9cc6cd",
         "status" : "passed",
         "time" : {
-          "start" : 1592549350965,
-          "stop" : 1592549351058,
-          "duration" : 93
+          "start" : 1592555658976,
+          "stop" : 1592555658984,
+          "duration" : 8
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "should_return_user_list_when_get_all_user()",
-        "uid" : "6dbb6ac88aa641",
-        "parentUid" : "c6dca33c038a86fa19355393c49274a2",
+        "name" : "should_get_user_list_when_get_all_user()",
+        "uid" : "9df38644eb99c489",
+        "parentUid" : "748f1f0dcbda43feb38af6794c9cc6cd",
         "status" : "passed",
         "time" : {
-          "start" : 1592549345973,
-          "stop" : 1592549346790,
-          "duration" : 817
+          "start" : 1592555663731,
+          "stop" : 1592555663903,
+          "duration" : 172
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "should_return_affect_rows_when_post_users()",
-        "uid" : "4706e5e317574e9",
-        "parentUid" : "c6dca33c038a86fa19355393c49274a2",
+        "uid" : "971c54f95ed3031b",
+        "parentUid" : "748f1f0dcbda43feb38af6794c9cc6cd",
         "status" : "passed",
         "time" : {
-          "start" : 1592549351066,
-          "stop" : 1592549351138,
-          "duration" : 72
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "should_return_users_when_query_all_user()",
-        "uid" : "e549a3f8493392ff",
-        "parentUid" : "c6dca33c038a86fa19355393c49274a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1592549349412,
-          "stop" : 1592549349467,
-          "duration" : 55
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "should_affect_1_row_when_save_a_user()",
-        "uid" : "74546672c61025e5",
-        "parentUid" : "c6dca33c038a86fa19355393c49274a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1592549346883,
-          "stop" : 1592549346887,
-          "duration" : 4
+          "start" : 1592555663906,
+          "stop" : 1592555664034,
+          "duration" : 128
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "should_pass_when_insert_new_user()",
-        "uid" : "ba3c9b0bd211befb",
-        "parentUid" : "c6dca33c038a86fa19355393c49274a2",
+        "uid" : "c7449545f5f378b4",
+        "parentUid" : "748f1f0dcbda43feb38af6794c9cc6cd",
         "status" : "passed",
         "time" : {
-          "start" : 1592549349316,
-          "stop" : 1592549349406,
-          "duration" : 90
+          "start" : 1592555662041,
+          "stop" : 1592555662154,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should_return_users_when_query_all_user()",
+        "uid" : "def14e448cfc9d04",
+        "parentUid" : "748f1f0dcbda43feb38af6794c9cc6cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592555662160,
+          "stop" : 1592555662202,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should_return_user_list_when_get_all_user()",
+        "uid" : "7efb7f42edc22310",
+        "parentUid" : "748f1f0dcbda43feb38af6794c9cc6cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592555657928,
+          "stop" : 1592555658839,
+          "duration" : 911
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c6dca33c038a86fa19355393c49274a2"
+      "uid" : "748f1f0dcbda43feb38af6794c9cc6cd"
     } ],
-    "uid" : "ad463093cc2ed989a72b2cfa6e3b1a1d"
+    "uid" : "dee5beff3ac9062986120b9f8f23ee5d"
   } ],
   "name" : "timeline"
 }

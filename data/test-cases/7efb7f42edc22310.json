@@ -1,0 +1,71 @@
+{
+  "uid" : "7efb7f42edc22310",
+  "name" : "should_return_user_list_when_get_all_user()",
+  "fullName" : "com.ahianzhang.xp.demo.service.IUserServiceTest.should_return_user_list_when_get_all_user",
+  "historyId" : "faa794fc9c070bbd64e92c573f10a34b",
+  "time" : {
+    "start" : 1592555657928,
+    "stop" : 1592555658839,
+    "duration" : 911
+  },
+  "description" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az58"
+  }, {
+    "name" : "thread",
+    "value" : "3161@fv-az58.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.ahianzhang.xp.demo.service.IUserServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ahianzhang.xp.demo.service.IUserServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "should_return_user_list_when_get_all_user"
+  }, {
+    "name" : "suite",
+    "value" : "com.ahianzhang.xp.demo.service.IUserServiceTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fac2762d4cdf9e92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592555641709,
+        "stop" : 1592555642669,
+        "duration" : 960
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7efb7f42edc22310.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -4,25 +4,25 @@
     "name" : "com.ahianzhang.xp.demo.service.IUserServiceTest",
     "children" : [ {
       "name" : "should_return_user_list_when_get_all_user()",
-      "uid" : "6dbb6ac88aa641",
+      "uid" : "7efb7f42edc22310",
       "parentUid" : "00eb3a1c8aa1d6b1d927bea51cada103",
       "status" : "passed",
       "time" : {
-        "start" : 1592549345973,
-        "stop" : 1592549346790,
-        "duration" : 817
+        "start" : 1592555657928,
+        "stop" : 1592555658839,
+        "duration" : 911
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_affect_1_row_when_save_a_user()",
-      "uid" : "74546672c61025e5",
+      "uid" : "d9b207251e63fc51",
       "parentUid" : "00eb3a1c8aa1d6b1d927bea51cada103",
       "status" : "passed",
       "time" : {
-        "start" : 1592549346883,
-        "stop" : 1592549346887,
-        "duration" : 4
+        "start" : 1592555658976,
+        "stop" : 1592555658984,
+        "duration" : 8
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -32,25 +32,25 @@
     "name" : "com.ahianzhang.xp.demo.dao.IUserMapperTest",
     "children" : [ {
       "name" : "should_pass_when_insert_new_user()",
-      "uid" : "ba3c9b0bd211befb",
+      "uid" : "c7449545f5f378b4",
       "parentUid" : "e7fab609cfb9d01e7260a0d85dca246d",
       "status" : "passed",
       "time" : {
-        "start" : 1592549349316,
-        "stop" : 1592549349406,
-        "duration" : 90
+        "start" : 1592555662041,
+        "stop" : 1592555662154,
+        "duration" : 113
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_return_users_when_query_all_user()",
-      "uid" : "e549a3f8493392ff",
+      "uid" : "def14e448cfc9d04",
       "parentUid" : "e7fab609cfb9d01e7260a0d85dca246d",
       "status" : "passed",
       "time" : {
-        "start" : 1592549349412,
-        "stop" : 1592549349467,
-        "duration" : 55
+        "start" : 1592555662160,
+        "stop" : 1592555662202,
+        "duration" : 42
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -60,25 +60,25 @@
     "name" : "com.ahianzhang.xp.demo.controller.UserControllerTest",
     "children" : [ {
       "name" : "should_get_user_list_when_get_all_user()",
-      "uid" : "b2b9b58636735550",
+      "uid" : "9df38644eb99c489",
       "parentUid" : "9609317135428936679af3a2ac1fd9d4",
       "status" : "passed",
       "time" : {
-        "start" : 1592549350965,
-        "stop" : 1592549351058,
-        "duration" : 93
+        "start" : 1592555663731,
+        "stop" : 1592555663903,
+        "duration" : 172
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_return_affect_rows_when_post_users()",
-      "uid" : "4706e5e317574e9",
+      "uid" : "971c54f95ed3031b",
       "parentUid" : "9609317135428936679af3a2ac1fd9d4",
       "status" : "passed",
       "time" : {
-        "start" : 1592549351066,
-        "stop" : 1592549351138,
-        "duration" : 72
+        "start" : 1592555663906,
+        "stop" : 1592555664034,
+        "duration" : 128
       },
       "flaky" : false,
       "parameters" : [ ]

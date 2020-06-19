@@ -1,60 +1,60 @@
 [ {
-  "uid" : "b2b9b58636735550",
-  "name" : "should_get_user_list_when_get_all_user()",
-  "time" : {
-    "start" : 1592549350965,
-    "stop" : 1592549351058,
-    "duration" : 93
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6dbb6ac88aa641",
-  "name" : "should_return_user_list_when_get_all_user()",
-  "time" : {
-    "start" : 1592549345973,
-    "stop" : 1592549346790,
-    "duration" : 817
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4706e5e317574e9",
-  "name" : "should_return_affect_rows_when_post_users()",
-  "time" : {
-    "start" : 1592549351066,
-    "stop" : 1592549351138,
-    "duration" : 72
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e549a3f8493392ff",
-  "name" : "should_return_users_when_query_all_user()",
-  "time" : {
-    "start" : 1592549349412,
-    "stop" : 1592549349467,
-    "duration" : 55
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "74546672c61025e5",
+  "uid" : "d9b207251e63fc51",
   "name" : "should_affect_1_row_when_save_a_user()",
   "time" : {
-    "start" : 1592549346883,
-    "stop" : 1592549346887,
-    "duration" : 4
+    "start" : 1592555658976,
+    "stop" : 1592555658984,
+    "duration" : 8
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ba3c9b0bd211befb",
+  "uid" : "9df38644eb99c489",
+  "name" : "should_get_user_list_when_get_all_user()",
+  "time" : {
+    "start" : 1592555663731,
+    "stop" : 1592555663903,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "971c54f95ed3031b",
+  "name" : "should_return_affect_rows_when_post_users()",
+  "time" : {
+    "start" : 1592555663906,
+    "stop" : 1592555664034,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7449545f5f378b4",
   "name" : "should_pass_when_insert_new_user()",
   "time" : {
-    "start" : 1592549349316,
-    "stop" : 1592549349406,
-    "duration" : 90
+    "start" : 1592555662041,
+    "stop" : 1592555662154,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "def14e448cfc9d04",
+  "name" : "should_return_users_when_query_all_user()",
+  "time" : {
+    "start" : 1592555662160,
+    "stop" : 1592555662202,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7efb7f42edc22310",
+  "name" : "should_return_user_list_when_get_all_user()",
+  "time" : {
+    "start" : 1592555657928,
+    "stop" : 1592555658839,
+    "duration" : 911
   },
   "status" : "passed",
   "severity" : "normal"

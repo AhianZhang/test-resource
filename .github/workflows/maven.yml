@@ -22,3 +22,13 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Generate report
+      run: mvn install site
+    - name: Delopy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.DEPLOY }}
+        BRANCH: gh-pages
+        FOLDER: target/allure-report
+
+

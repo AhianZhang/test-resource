@@ -7,6 +7,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.sql.Timestamp;
+import java.time.Instant;
 import java.util.List;
 
 /**
@@ -25,6 +27,8 @@ public class UserServiceImpl implements IUserService {
             log.warn("user is null");
             return 0;
         }
+        Timestamp timestamp = Timestamp.from(Instant.now());
+        user.setCreateTime(timestamp.toString());
         return userDao.createUser(user);
     }
 

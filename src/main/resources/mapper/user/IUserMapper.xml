@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.ahianzhang.xp.demo.dao.IUserMapper">
+<mapper namespace="com.ahianzhang.xp.demo.user.IUserMapper">
 
-    <insert id="createUser" useGeneratedKeys="true" keyProperty="id" parameterType="com.ahianzhang.xp.demo.entity.User">
+    <insert id="createUser" useGeneratedKeys="true" keyProperty="id" parameterType="com.ahianzhang.xp.demo.user.User">
        INSERT INTO `t_user`(
         `name`, `gender`, `address`, `create_time`)
        VALUES (
@@ -10,7 +10,7 @@
        );
     </insert>
 
-    <select id="getUsers" resultType="com.ahianzhang.xp.demo.entity.User">
+    <select id="getUsers" resultType="com.ahianzhang.xp.demo.user.User">
         select * from t_user
     </select>
 

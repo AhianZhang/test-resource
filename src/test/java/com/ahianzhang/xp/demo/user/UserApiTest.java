@@ -1,8 +1,7 @@
-package com.ahianzhang.xp.demo.controller;
+package com.ahianzhang.xp.demo.user;
 
-import com.ahianzhang.xp.demo.entity.User;
-import com.ahianzhang.xp.demo.service.IUserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Test;
 import org.mybatis.spring.boot.test.autoconfigure.AutoConfigureMybatis;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,11 +26,12 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @WebMvcTest
 @AutoConfigureMybatis
-class UserControllerTest {
+@Feature("Restful Api")
+class UserApiTest {
     @Autowired
     private MockMvc mockMvc;
     @MockBean
-    private IUserService userService;
+    private UserService userService;
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
 

@@ -1,4 +1,4 @@
-package com.ahianzhang.xp.demo.entity;
+package com.ahianzhang.xp.demo.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,7 +1,5 @@
-package com.ahianzhang.xp.demo.controller;
+package com.ahianzhang.xp.demo.user;
 
-import com.ahianzhang.xp.demo.entity.User;
-import com.ahianzhang.xp.demo.service.IUserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,8 +15,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/user")
 @RequiredArgsConstructor
-public class UserController {
-    private final IUserService userService;
+public class UserApi {
+    private final UserService userService;
     @PostMapping
     public ResponseEntity<User> createUser(@RequestBody  User user, WebRequest request){
         userService.createUser(user);

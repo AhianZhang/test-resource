@@ -1,6 +1,5 @@
-package com.ahianzhang.xp.demo.dao;
+package com.ahianzhang.xp.demo.user;
 
-import com.ahianzhang.xp.demo.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

@@ -1,8 +1,6 @@
-package com.ahianzhang.xp.demo.service;
+package com.ahianzhang.xp.demo.user;
 
-import com.ahianzhang.xp.demo.dao.IUserMapper;
-import com.ahianzhang.xp.demo.entity.User;
-import com.ahianzhang.xp.demo.service.impl.UserServiceImpl;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -21,14 +19,15 @@ import static org.mockito.Mockito.doReturn;
  * @author ahianzhang
  */
 @ExtendWith(MockitoExtension.class)
-class IUserServiceTest {
+@Feature("业务逻辑层")
+class UserServiceTest {
 
 
     @Mock
     private IUserMapper userMapper;
 
     @InjectMocks
-    private UserServiceImpl userService;
+    private UserService userService;
 
 
     @Test

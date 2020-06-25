@@ -1,6 +1,6 @@
-package com.ahianzhang.xp.demo.dao;
+package com.ahianzhang.xp.demo.user;
 
-import com.ahianzhang.xp.demo.entity.User;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Test;
 import org.mybatis.spring.boot.test.autoconfigure.MybatisTest;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +18,7 @@ import static org.hamcrest.Matchers.*;
  * 每个方法结束后会回滚
  */
 @MybatisTest
+@Feature("数据访问层")
 class IUserMapperTest {
     @Autowired
     private IUserMapper userDao;

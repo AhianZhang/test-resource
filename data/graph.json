@@ -1,60 +1,60 @@
 [ {
-  "uid" : "b308aa1cb9f2b783",
-  "name" : "should_return_affect_rows_when_post_users()",
-  "time" : {
-    "start" : 1592560106305,
-    "stop" : 1592560106388,
-    "duration" : 83
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "774947f4a36c1ab7",
-  "name" : "should_pass_when_insert_new_user()",
-  "time" : {
-    "start" : 1592560104681,
-    "stop" : 1592560104794,
-    "duration" : 113
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3bede731574b5d48",
+  "uid" : "c3a23c1979cf27c9",
   "name" : "should_return_user_list_when_get_all_user()",
   "time" : {
-    "start" : 1592560100839,
-    "stop" : 1592560101702,
-    "duration" : 863
+    "start" : 1593069951273,
+    "stop" : 1593069951693,
+    "duration" : 420
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8f087350ba360d63",
+  "uid" : "46b9d828548e9c59",
   "name" : "should_affect_1_row_when_save_a_user()",
   "time" : {
-    "start" : 1592560101800,
-    "stop" : 1592560101805,
-    "duration" : 5
+    "start" : 1593069951695,
+    "stop" : 1593069951703,
+    "duration" : 8
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a45a05befc47ce60",
-  "name" : "should_get_user_list_when_get_all_user()",
-  "time" : {
-    "start" : 1592560106184,
-    "stop" : 1592560106302,
-    "duration" : 118
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc385bf04884098d",
+  "uid" : "441a924aa42e5cc1",
   "name" : "should_return_users_when_query_all_user()",
   "time" : {
-    "start" : 1592560104805,
-    "stop" : 1592560104836,
-    "duration" : 31
+    "start" : 1593069951221,
+    "stop" : 1593069951249,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4399edf62367b902",
+  "name" : "should_get_user_list_when_get_all_user()",
+  "time" : {
+    "start" : 1593069953235,
+    "stop" : 1593069953404,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb186c50087abe62",
+  "name" : "should_return_affect_rows_when_post_users()",
+  "time" : {
+    "start" : 1593069953414,
+    "stop" : 1593069953506,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2e06b3e7796544a",
+  "name" : "should_pass_when_insert_new_user()",
+  "time" : {
+    "start" : 1593069950815,
+    "stop" : 1593069951128,
+    "duration" : 313
   },
   "status" : "passed",
   "severity" : "normal"

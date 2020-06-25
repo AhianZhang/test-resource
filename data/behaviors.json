@@ -1,77 +1,89 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "should_return_user_list_when_get_all_user()",
-    "uid" : "3bede731574b5d48",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1592560100839,
-      "stop" : 1592560101702,
-      "duration" : 863
-    },
-    "flaky" : false,
-    "parameters" : [ ]
+    "name" : "数据访问层",
+    "children" : [ {
+      "name" : "should_pass_when_insert_new_user()",
+      "uid" : "b2e06b3e7796544a",
+      "parentUid" : "273e5d575c34ac293419c8a66abeee2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593069950815,
+        "stop" : 1593069951128,
+        "duration" : 313
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should_return_users_when_query_all_user()",
+      "uid" : "441a924aa42e5cc1",
+      "parentUid" : "273e5d575c34ac293419c8a66abeee2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593069951221,
+        "stop" : 1593069951249,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "273e5d575c34ac293419c8a66abeee2c"
   }, {
-    "name" : "should_affect_1_row_when_save_a_user()",
-    "uid" : "8f087350ba360d63",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1592560101800,
-      "stop" : 1592560101805,
-      "duration" : 5
-    },
-    "flaky" : false,
-    "parameters" : [ ]
+    "name" : "业务逻辑层",
+    "children" : [ {
+      "name" : "should_return_user_list_when_get_all_user()",
+      "uid" : "c3a23c1979cf27c9",
+      "parentUid" : "9fc2d0790d7ce1c64eca69b942f55e60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593069951273,
+        "stop" : 1593069951693,
+        "duration" : 420
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should_affect_1_row_when_save_a_user()",
+      "uid" : "46b9d828548e9c59",
+      "parentUid" : "9fc2d0790d7ce1c64eca69b942f55e60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593069951695,
+        "stop" : 1593069951703,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9fc2d0790d7ce1c64eca69b942f55e60"
   }, {
-    "name" : "should_pass_when_insert_new_user()",
-    "uid" : "774947f4a36c1ab7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1592560104681,
-      "stop" : 1592560104794,
-      "duration" : 113
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should_return_users_when_query_all_user()",
-    "uid" : "cc385bf04884098d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1592560104805,
-      "stop" : 1592560104836,
-      "duration" : 31
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should_get_user_list_when_get_all_user()",
-    "uid" : "a45a05befc47ce60",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1592560106184,
-      "stop" : 1592560106302,
-      "duration" : 118
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should_return_affect_rows_when_post_users()",
-    "uid" : "b308aa1cb9f2b783",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1592560106305,
-      "stop" : 1592560106388,
-      "duration" : 83
-    },
-    "flaky" : false,
-    "parameters" : [ ]
+    "name" : "Restful Api",
+    "children" : [ {
+      "name" : "should_get_user_list_when_get_all_user()",
+      "uid" : "4399edf62367b902",
+      "parentUid" : "2aefffbfd8a6a13045d544203b16baef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593069953235,
+        "stop" : 1593069953404,
+        "duration" : 169
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should_return_affect_rows_when_post_users()",
+      "uid" : "fb186c50087abe62",
+      "parentUid" : "2aefffbfd8a6a13045d544203b16baef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593069953414,
+        "stop" : 1593069953506,
+        "duration" : 92
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2aefffbfd8a6a13045d544203b16baef"
   } ],
   "name" : "behaviors"
 }

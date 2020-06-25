@@ -11,20 +11,20 @@
       "total" : 6
     },
     "time" : {
-      "start" : 1592560100839,
-      "stop" : 1592560106388,
-      "duration" : 5549,
-      "minDuration" : 5,
-      "maxDuration" : 863,
-      "sumDuration" : 1213
+      "start" : 1593069950815,
+      "stop" : 1593069953506,
+      "duration" : 2691,
+      "minDuration" : 8,
+      "maxDuration" : 420,
+      "sumDuration" : 1030
     }
   },
   "environment" : [ ],
   "suites" : {
     "total" : 3,
     "items" : [ {
-      "uid" : "00eb3a1c8aa1d6b1d927bea51cada103",
-      "name" : "com.ahianzhang.xp.demo.service.IUserServiceTest",
+      "uid" : "f469643ef0a05f32ee53aaa7352ee440",
+      "name" : "com.ahianzhang.xp.demo.user.IUserMapperTest",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
@@ -34,8 +34,8 @@
         "total" : 2
       }
     }, {
-      "uid" : "e7fab609cfb9d01e7260a0d85dca246d",
-      "name" : "com.ahianzhang.xp.demo.dao.IUserMapperTest",
+      "uid" : "ead6ea44a34b800d29d82def8781033a",
+      "name" : "com.ahianzhang.xp.demo.user.UserServiceTest",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
@@ -45,8 +45,8 @@
         "total" : 2
       }
     }, {
-      "uid" : "9609317135428936679af3a2ac1fd9d4",
-      "name" : "com.ahianzhang.xp.demo.controller.UserControllerTest",
+      "uid" : "1f4b44a420c2ece5da8da18d6f44217c",
+      "name" : "com.ahianzhang.xp.demo.user.UserApiTest",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
@@ -68,8 +68,41 @@
     }
   } ],
   "behaviors" : {
-    "total" : 6,
-    "items" : [ ]
+    "total" : 3,
+    "items" : [ {
+      "uid" : "273e5d575c34ac293419c8a66abeee2c",
+      "name" : "数据访问层",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "9fc2d0790d7ce1c64eca69b942f55e60",
+      "name" : "业务逻辑层",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "2aefffbfd8a6a13045d544203b16baef",
+      "name" : "Restful Api",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    } ]
   },
   "executors" : [ {
     "name" : "Maven",

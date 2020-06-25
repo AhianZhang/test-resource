@@ -1,89 +1,89 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "com.ahianzhang.xp.demo.service.IUserServiceTest",
-    "children" : [ {
-      "name" : "should_return_user_list_when_get_all_user()",
-      "uid" : "3bede731574b5d48",
-      "parentUid" : "00eb3a1c8aa1d6b1d927bea51cada103",
-      "status" : "passed",
-      "time" : {
-        "start" : 1592560100839,
-        "stop" : 1592560101702,
-        "duration" : 863
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "should_affect_1_row_when_save_a_user()",
-      "uid" : "8f087350ba360d63",
-      "parentUid" : "00eb3a1c8aa1d6b1d927bea51cada103",
-      "status" : "passed",
-      "time" : {
-        "start" : 1592560101800,
-        "stop" : 1592560101805,
-        "duration" : 5
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "00eb3a1c8aa1d6b1d927bea51cada103"
-  }, {
-    "name" : "com.ahianzhang.xp.demo.dao.IUserMapperTest",
+    "name" : "com.ahianzhang.xp.demo.user.IUserMapperTest",
     "children" : [ {
       "name" : "should_pass_when_insert_new_user()",
-      "uid" : "774947f4a36c1ab7",
-      "parentUid" : "e7fab609cfb9d01e7260a0d85dca246d",
+      "uid" : "b2e06b3e7796544a",
+      "parentUid" : "f469643ef0a05f32ee53aaa7352ee440",
       "status" : "passed",
       "time" : {
-        "start" : 1592560104681,
-        "stop" : 1592560104794,
-        "duration" : 113
+        "start" : 1593069950815,
+        "stop" : 1593069951128,
+        "duration" : 313
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_return_users_when_query_all_user()",
-      "uid" : "cc385bf04884098d",
-      "parentUid" : "e7fab609cfb9d01e7260a0d85dca246d",
+      "uid" : "441a924aa42e5cc1",
+      "parentUid" : "f469643ef0a05f32ee53aaa7352ee440",
       "status" : "passed",
       "time" : {
-        "start" : 1592560104805,
-        "stop" : 1592560104836,
-        "duration" : 31
+        "start" : 1593069951221,
+        "stop" : 1593069951249,
+        "duration" : 28
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "e7fab609cfb9d01e7260a0d85dca246d"
+    "uid" : "f469643ef0a05f32ee53aaa7352ee440"
   }, {
-    "name" : "com.ahianzhang.xp.demo.controller.UserControllerTest",
+    "name" : "com.ahianzhang.xp.demo.user.UserServiceTest",
     "children" : [ {
-      "name" : "should_get_user_list_when_get_all_user()",
-      "uid" : "a45a05befc47ce60",
-      "parentUid" : "9609317135428936679af3a2ac1fd9d4",
+      "name" : "should_return_user_list_when_get_all_user()",
+      "uid" : "c3a23c1979cf27c9",
+      "parentUid" : "ead6ea44a34b800d29d82def8781033a",
       "status" : "passed",
       "time" : {
-        "start" : 1592560106184,
-        "stop" : 1592560106302,
-        "duration" : 118
+        "start" : 1593069951273,
+        "stop" : 1593069951693,
+        "duration" : 420
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should_affect_1_row_when_save_a_user()",
+      "uid" : "46b9d828548e9c59",
+      "parentUid" : "ead6ea44a34b800d29d82def8781033a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593069951695,
+        "stop" : 1593069951703,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ead6ea44a34b800d29d82def8781033a"
+  }, {
+    "name" : "com.ahianzhang.xp.demo.user.UserApiTest",
+    "children" : [ {
+      "name" : "should_get_user_list_when_get_all_user()",
+      "uid" : "4399edf62367b902",
+      "parentUid" : "1f4b44a420c2ece5da8da18d6f44217c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593069953235,
+        "stop" : 1593069953404,
+        "duration" : 169
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_return_affect_rows_when_post_users()",
-      "uid" : "b308aa1cb9f2b783",
-      "parentUid" : "9609317135428936679af3a2ac1fd9d4",
+      "uid" : "fb186c50087abe62",
+      "parentUid" : "1f4b44a420c2ece5da8da18d6f44217c",
       "status" : "passed",
       "time" : {
-        "start" : 1592560106305,
-        "stop" : 1592560106388,
-        "duration" : 83
+        "start" : 1593069953414,
+        "stop" : 1593069953506,
+        "duration" : 92
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "9609317135428936679af3a2ac1fd9d4"
+    "uid" : "1f4b44a420c2ece5da8da18d6f44217c"
   } ],
   "name" : "suites"
 }

@@ -1,93 +1,93 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "com.ahianzhang.xp.demo",
+    "name" : "com.ahianzhang.xp.demo.user",
     "children" : [ {
-      "name" : "service.IUserServiceTest",
-      "children" : [ {
-        "name" : "should_return_user_list_when_get_all_user",
-        "uid" : "3bede731574b5d48",
-        "parentUid" : "e55f4020a0ae75965dbed370bb78743e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1592560100839,
-          "stop" : 1592560101702,
-          "duration" : 863
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "should_affect_1_row_when_save_a_user",
-        "uid" : "8f087350ba360d63",
-        "parentUid" : "e55f4020a0ae75965dbed370bb78743e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1592560101800,
-          "stop" : 1592560101805,
-          "duration" : 5
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "service.IUserServiceTest"
-    }, {
-      "name" : "dao.IUserMapperTest",
+      "name" : "IUserMapperTest",
       "children" : [ {
         "name" : "should_pass_when_insert_new_user",
-        "uid" : "774947f4a36c1ab7",
-        "parentUid" : "c87df63c7db083f536e9137d957bdc77",
+        "uid" : "b2e06b3e7796544a",
+        "parentUid" : "53ac2ce1c6c2c75de9efbe97a20cbef4",
         "status" : "passed",
         "time" : {
-          "start" : 1592560104681,
-          "stop" : 1592560104794,
-          "duration" : 113
+          "start" : 1593069950815,
+          "stop" : 1593069951128,
+          "duration" : 313
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "should_return_users_when_query_all_user",
-        "uid" : "cc385bf04884098d",
-        "parentUid" : "c87df63c7db083f536e9137d957bdc77",
+        "uid" : "441a924aa42e5cc1",
+        "parentUid" : "53ac2ce1c6c2c75de9efbe97a20cbef4",
         "status" : "passed",
         "time" : {
-          "start" : 1592560104805,
-          "stop" : 1592560104836,
-          "duration" : 31
+          "start" : 1593069951221,
+          "stop" : 1593069951249,
+          "duration" : 28
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "dao.IUserMapperTest"
+      "uid" : "53ac2ce1c6c2c75de9efbe97a20cbef4"
     }, {
-      "name" : "controller.UserControllerTest",
+      "name" : "UserServiceTest",
       "children" : [ {
-        "name" : "should_get_user_list_when_get_all_user",
-        "uid" : "a45a05befc47ce60",
-        "parentUid" : "52a44849725cd21f3201c0834ef9d21d",
+        "name" : "should_return_user_list_when_get_all_user",
+        "uid" : "c3a23c1979cf27c9",
+        "parentUid" : "db4eac4106b24588bb1e97405e3a0835",
         "status" : "passed",
         "time" : {
-          "start" : 1592560106184,
-          "stop" : 1592560106302,
-          "duration" : 118
+          "start" : 1593069951273,
+          "stop" : 1593069951693,
+          "duration" : 420
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should_affect_1_row_when_save_a_user",
+        "uid" : "46b9d828548e9c59",
+        "parentUid" : "db4eac4106b24588bb1e97405e3a0835",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593069951695,
+          "stop" : 1593069951703,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db4eac4106b24588bb1e97405e3a0835"
+    }, {
+      "name" : "UserApiTest",
+      "children" : [ {
+        "name" : "should_get_user_list_when_get_all_user",
+        "uid" : "4399edf62367b902",
+        "parentUid" : "31741ae886cb887f2f4b6b52db4015ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593069953235,
+          "stop" : 1593069953404,
+          "duration" : 169
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "should_return_affect_rows_when_post_users",
-        "uid" : "b308aa1cb9f2b783",
-        "parentUid" : "52a44849725cd21f3201c0834ef9d21d",
+        "uid" : "fb186c50087abe62",
+        "parentUid" : "31741ae886cb887f2f4b6b52db4015ae",
         "status" : "passed",
         "time" : {
-          "start" : 1592560106305,
-          "stop" : 1592560106388,
-          "duration" : 83
+          "start" : 1593069953414,
+          "stop" : 1593069953506,
+          "duration" : 92
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "controller.UserControllerTest"
+      "uid" : "31741ae886cb887f2f4b6b52db4015ae"
     } ],
-    "uid" : "com.ahianzhang.xp.demo"
+    "uid" : "com.ahianzhang.xp.demo.user"
   } ],
   "name" : "packages"
 }

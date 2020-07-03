@@ -13,6 +13,7 @@ import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.doReturn;
 
 /**
@@ -29,6 +30,15 @@ class UserServiceTest {
     @InjectMocks
     private UserService userService;
 
+    @Test
+    void should_get_IllegalArgumentException_when_user_is_null() {
+        Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
+            userService.createUser(null);
+        });
+        String actualExceptionMsg = exception.getMessage();
+        String expectedExceptionMsg = "user cannot be null";
+        assertThat(actualExceptionMsg,is(expectedExceptionMsg));
+    }
 
     @Test
     void should_affect_1_row_when_save_a_user() {

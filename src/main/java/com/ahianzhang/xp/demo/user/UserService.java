@@ -22,7 +22,7 @@ public class UserService {
     public Integer createUser(User user) {
         if (user == null){
             log.warn("user is null");
-            return 0;
+            throw new IllegalArgumentException("user cannot be null");
         }
         Timestamp timestamp = Timestamp.from(Instant.now());
         user.setCreateTime(timestamp.toString());

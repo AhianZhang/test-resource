@@ -1,0 +1,63 @@
+{
+  "uid" : "d635bcf98f8a8113",
+  "name" : "should_return_affect_rows_when_post_users()",
+  "fullName" : "com.ahianzhang.xp.demo.user.UserApiTest.should_return_affect_rows_when_post_users",
+  "historyId" : "f1fef1eeeb79bf4fa5c92414d33186df",
+  "time" : {
+    "start" : 1593791499921,
+    "stop" : 1593791500034,
+    "duration" : 113
+  },
+  "description" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Restful Api"
+  }, {
+    "name" : "host",
+    "value" : "fv-az60"
+  }, {
+    "name" : "thread",
+    "value" : "2667@fv-az60.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.ahianzhang.xp.demo.user.UserApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ahianzhang.xp.demo.user.UserApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "should_return_affect_rows_when_post_users"
+  }, {
+    "name" : "suite",
+    "value" : "com.ahianzhang.xp.demo.user.UserApiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "d635bcf98f8a8113.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

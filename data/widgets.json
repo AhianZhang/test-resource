@@ -6,36 +6,36 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "time" : {
-      "start" : 1593531302585,
-      "stop" : 1593531305506,
-      "duration" : 2921,
-      "minDuration" : 3,
-      "maxDuration" : 442,
-      "sumDuration" : 1096
+      "start" : 1593791513431,
+      "stop" : 1593791516312,
+      "duration" : 2881,
+      "minDuration" : 5,
+      "maxDuration" : 489,
+      "sumDuration" : 1145
     }
   },
   "environment" : [ ],
   "suites" : {
     "total" : 3,
     "items" : [ {
-      "uid" : "f469643ef0a05f32ee53aaa7352ee440",
-      "name" : "com.ahianzhang.xp.demo.user.IUserMapperTest",
+      "uid" : "ead6ea44a34b800d29d82def8781033a",
+      "name" : "com.ahianzhang.xp.demo.user.UserServiceTest",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       }
     }, {
-      "uid" : "ead6ea44a34b800d29d82def8781033a",
-      "name" : "com.ahianzhang.xp.demo.user.UserServiceTest",
+      "uid" : "f469643ef0a05f32ee53aaa7352ee440",
+      "name" : "com.ahianzhang.xp.demo.user.IUserMapperTest",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
@@ -62,27 +62,27 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     }
   } ],
   "behaviors" : {
     "total" : 3,
     "items" : [ {
-      "uid" : "273e5d575c34ac293419c8a66abeee2c",
-      "name" : "数据访问层",
+      "uid" : "9fc2d0790d7ce1c64eca69b942f55e60",
+      "name" : "业务逻辑层",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       }
     }, {
-      "uid" : "9fc2d0790d7ce1c64eca69b942f55e60",
-      "name" : "业务逻辑层",
+      "uid" : "273e5d575c34ac293419c8a66abeee2c",
+      "name" : "数据访问层",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,

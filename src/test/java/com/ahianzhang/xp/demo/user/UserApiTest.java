@@ -54,10 +54,7 @@ class UserApiTest {
                 .content(json)
                 .accept(MediaType.APPLICATION_JSON)
         )
-                .andExpect(status().isOk())
-                .andDo(print());
-
-
+                .andExpect(status().isOk());
 
     }
 

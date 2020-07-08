@@ -6,25 +6,25 @@
       "name" : "IUserMapperTest",
       "children" : [ {
         "name" : "should_pass_when_insert_new_user",
-        "uid" : "3d929f744d156072",
+        "uid" : "4abf8a2a924a12ec",
         "parentUid" : "53ac2ce1c6c2c75de9efbe97a20cbef4",
         "status" : "passed",
         "time" : {
-          "start" : 1594195686417,
-          "stop" : 1594195686783,
-          "duration" : 366
+          "start" : 1594200449763,
+          "stop" : 1594200450111,
+          "duration" : 348
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "should_return_users_when_query_all_user",
-        "uid" : "40dbe969736a7e6f",
+        "uid" : "ba62eeeb4e5146aa",
         "parentUid" : "53ac2ce1c6c2c75de9efbe97a20cbef4",
         "status" : "passed",
         "time" : {
-          "start" : 1594195686890,
-          "stop" : 1594195686936,
-          "duration" : 46
+          "start" : 1594200450227,
+          "stop" : 1594200450256,
+          "duration" : 29
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -34,37 +34,37 @@
       "name" : "UserServiceTest",
       "children" : [ {
         "name" : "should_return_user_list_when_get_all_user",
-        "uid" : "16c9e375942a06e3",
+        "uid" : "dc63f4eb1f7cd164",
         "parentUid" : "db4eac4106b24588bb1e97405e3a0835",
         "status" : "passed",
         "time" : {
-          "start" : 1594195686965,
-          "stop" : 1594195687426,
-          "duration" : 461
+          "start" : 1594200450285,
+          "stop" : 1594200450670,
+          "duration" : 385
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "should_affect_1_row_when_save_a_user",
-        "uid" : "419ffc0b43d49a38",
+        "uid" : "18697203d9ec0a8c",
         "parentUid" : "db4eac4106b24588bb1e97405e3a0835",
         "status" : "passed",
         "time" : {
-          "start" : 1594195687434,
-          "stop" : 1594195687438,
-          "duration" : 4
+          "start" : 1594200450673,
+          "stop" : 1594200450676,
+          "duration" : 3
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "should_get_IllegalArgumentException_when_user_is_null",
-        "uid" : "b66a34d96b975858",
+        "uid" : "a89738da20ecd545",
         "parentUid" : "db4eac4106b24588bb1e97405e3a0835",
         "status" : "passed",
         "time" : {
-          "start" : 1594195687442,
-          "stop" : 1594195687450,
-          "duration" : 8
+          "start" : 1594200450679,
+          "stop" : 1594200450692,
+          "duration" : 13
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -74,25 +74,25 @@
       "name" : "UserApiTest",
       "children" : [ {
         "name" : "should_get_user_list_when_get_all_user",
-        "uid" : "2e12125bf840e14d",
+        "uid" : "bf7ae7111506eb2b",
         "parentUid" : "31741ae886cb887f2f4b6b52db4015ae",
         "status" : "passed",
         "time" : {
-          "start" : 1594195689052,
-          "stop" : 1594195689252,
-          "duration" : 200
+          "start" : 1594200452403,
+          "stop" : 1594200452507,
+          "duration" : 104
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "should_return_affect_rows_when_post_users",
-        "uid" : "301f9b8bd25f0be",
+        "uid" : "984601c5a08dafdb",
         "parentUid" : "31741ae886cb887f2f4b6b52db4015ae",
         "status" : "passed",
         "time" : {
-          "start" : 1594195689257,
-          "stop" : 1594195689351,
-          "duration" : 94
+          "start" : 1594200452512,
+          "stop" : 1594200452605,
+          "duration" : 93
         },
         "flaky" : false,
         "parameters" : [ ]

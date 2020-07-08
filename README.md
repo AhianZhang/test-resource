@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/AhianZhang/test-resource/branch/master/graph/badge.svg)](https://codecov.io/gh/AhianZhang/test-resource)
+---
 # SpringBoot + Mybatis 单元测试
 ## 为什么会有此仓库
 1.  帮助 TDD 开发者快速熟悉 Spring 体系的单元测试工具

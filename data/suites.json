@@ -4,24 +4,24 @@
     "name" : "com.ahianzhang.xp.demo.user.IUserMapperTest",
     "children" : [ {
       "name" : "should_pass_when_insert_new_user()",
-      "uid" : "2d3a62f1f8311ae7",
+      "uid" : "3d929f744d156072",
       "parentUid" : "f469643ef0a05f32ee53aaa7352ee440",
       "status" : "passed",
       "time" : {
-        "start" : 1593791513431,
-        "stop" : 1593791513813,
-        "duration" : 382
+        "start" : 1594195686417,
+        "stop" : 1594195686783,
+        "duration" : 366
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_return_users_when_query_all_user()",
-      "uid" : "dbd810fbf04ae151",
+      "uid" : "40dbe969736a7e6f",
       "parentUid" : "f469643ef0a05f32ee53aaa7352ee440",
       "status" : "passed",
       "time" : {
-        "start" : 1593791513934,
-        "stop" : 1593791513980,
+        "start" : 1594195686890,
+        "stop" : 1594195686936,
         "duration" : 46
       },
       "flaky" : false,
@@ -32,37 +32,37 @@
     "name" : "com.ahianzhang.xp.demo.user.UserServiceTest",
     "children" : [ {
       "name" : "should_return_user_list_when_get_all_user()",
-      "uid" : "dc93b657600ddf7f",
+      "uid" : "16c9e375942a06e3",
       "parentUid" : "ead6ea44a34b800d29d82def8781033a",
       "status" : "passed",
       "time" : {
-        "start" : 1593791514009,
-        "stop" : 1593791514498,
-        "duration" : 489
+        "start" : 1594195686965,
+        "stop" : 1594195687426,
+        "duration" : 461
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_affect_1_row_when_save_a_user()",
-      "uid" : "970c3bc7ff9a4b3",
+      "uid" : "419ffc0b43d49a38",
       "parentUid" : "ead6ea44a34b800d29d82def8781033a",
       "status" : "passed",
       "time" : {
-        "start" : 1593791514508,
-        "stop" : 1593791514513,
-        "duration" : 5
+        "start" : 1594195687434,
+        "stop" : 1594195687438,
+        "duration" : 4
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_get_IllegalArgumentException_when_user_is_null()",
-      "uid" : "85341fe784feb6fb",
+      "uid" : "b66a34d96b975858",
       "parentUid" : "ead6ea44a34b800d29d82def8781033a",
       "status" : "passed",
       "time" : {
-        "start" : 1593791514517,
-        "stop" : 1593791514524,
-        "duration" : 7
+        "start" : 1594195687442,
+        "stop" : 1594195687450,
+        "duration" : 8
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -72,25 +72,25 @@
     "name" : "com.ahianzhang.xp.demo.user.UserApiTest",
     "children" : [ {
       "name" : "should_get_user_list_when_get_all_user()",
-      "uid" : "89e2742942cc08a1",
+      "uid" : "2e12125bf840e14d",
       "parentUid" : "1f4b44a420c2ece5da8da18d6f44217c",
       "status" : "passed",
       "time" : {
-        "start" : 1593791516093,
-        "stop" : 1593791516218,
-        "duration" : 125
+        "start" : 1594195689052,
+        "stop" : 1594195689252,
+        "duration" : 200
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_return_affect_rows_when_post_users()",
-      "uid" : "e4a650a61d2a39c2",
+      "uid" : "301f9b8bd25f0be",
       "parentUid" : "1f4b44a420c2ece5da8da18d6f44217c",
       "status" : "passed",
       "time" : {
-        "start" : 1593791516221,
-        "stop" : 1593791516312,
-        "duration" : 91
+        "start" : 1594195689257,
+        "stop" : 1594195689351,
+        "duration" : 94
       },
       "flaky" : false,
       "parameters" : [ ]

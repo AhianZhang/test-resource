@@ -1,70 +1,70 @@
 [ {
-  "uid" : "85341fe784feb6fb",
-  "name" : "should_get_IllegalArgumentException_when_user_is_null()",
-  "time" : {
-    "start" : 1593791514517,
-    "stop" : 1593791514524,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc93b657600ddf7f",
-  "name" : "should_return_user_list_when_get_all_user()",
-  "time" : {
-    "start" : 1593791514009,
-    "stop" : 1593791514498,
-    "duration" : 489
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4a650a61d2a39c2",
-  "name" : "should_return_affect_rows_when_post_users()",
-  "time" : {
-    "start" : 1593791516221,
-    "stop" : 1593791516312,
-    "duration" : 91
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d3a62f1f8311ae7",
+  "uid" : "3d929f744d156072",
   "name" : "should_pass_when_insert_new_user()",
   "time" : {
-    "start" : 1593791513431,
-    "stop" : 1593791513813,
-    "duration" : 382
+    "start" : 1594195686417,
+    "stop" : 1594195686783,
+    "duration" : 366
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dbd810fbf04ae151",
+  "uid" : "2e12125bf840e14d",
+  "name" : "should_get_user_list_when_get_all_user()",
+  "time" : {
+    "start" : 1594195689052,
+    "stop" : 1594195689252,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16c9e375942a06e3",
+  "name" : "should_return_user_list_when_get_all_user()",
+  "time" : {
+    "start" : 1594195686965,
+    "stop" : 1594195687426,
+    "duration" : 461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b66a34d96b975858",
+  "name" : "should_get_IllegalArgumentException_when_user_is_null()",
+  "time" : {
+    "start" : 1594195687442,
+    "stop" : 1594195687450,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "301f9b8bd25f0be",
+  "name" : "should_return_affect_rows_when_post_users()",
+  "time" : {
+    "start" : 1594195689257,
+    "stop" : 1594195689351,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40dbe969736a7e6f",
   "name" : "should_return_users_when_query_all_user()",
   "time" : {
-    "start" : 1593791513934,
-    "stop" : 1593791513980,
+    "start" : 1594195686890,
+    "stop" : 1594195686936,
     "duration" : 46
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "970c3bc7ff9a4b3",
+  "uid" : "419ffc0b43d49a38",
   "name" : "should_affect_1_row_when_save_a_user()",
   "time" : {
-    "start" : 1593791514508,
-    "stop" : 1593791514513,
-    "duration" : 5
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89e2742942cc08a1",
-  "name" : "should_get_user_list_when_get_all_user()",
-  "time" : {
-    "start" : 1593791516093,
-    "stop" : 1593791516218,
-    "duration" : 125
+    "start" : 1594195687434,
+    "stop" : 1594195687438,
+    "duration" : 4
   },
   "status" : "passed",
   "severity" : "normal"

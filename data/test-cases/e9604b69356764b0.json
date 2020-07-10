@@ -1,0 +1,74 @@
+{
+  "uid" : "e9604b69356764b0",
+  "name" : "should_return_user_list_when_get_all_user()",
+  "fullName" : "com.ahianzhang.xp.demo.user.UserServiceTest.should_return_user_list_when_get_all_user",
+  "historyId" : "2f2a437ec36cdd473060d3bc8a08727a",
+  "time" : {
+    "start" : 1594383618337,
+    "stop" : 1594383618733,
+    "duration" : 396
+  },
+  "description" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "业务逻辑层"
+  }, {
+    "name" : "host",
+    "value" : "fv-az19"
+  }, {
+    "name" : "thread",
+    "value" : "3363@fv-az19.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.ahianzhang.xp.demo.user.UserServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ahianzhang.xp.demo.user.UserServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "should_return_user_list_when_get_all_user"
+  }, {
+    "name" : "suite",
+    "value" : "com.ahianzhang.xp.demo.user.UserServiceTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8869ad15a1d895a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594383602901,
+        "stop" : 1594383603345,
+        "duration" : 444
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9604b69356764b0.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

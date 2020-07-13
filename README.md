@@ -1,5 +1,6 @@
 # SpringBoot + Mybatis 单元测试
 
+![](https://github.com/AhianZhang/test-resource/workflows/.github/workflows/maven.yml/badge.svg)
 [![codecov](https://codecov.io/gh/AhianZhang/test-resource/branch/master/graph/badge.svg)](https://codecov.io/gh/AhianZhang/test-resource)
 
 ## 为什么会有此仓库

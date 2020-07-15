@@ -108,10 +108,11 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-                    <!-- jacoco 命令 -->
+                    <!-- jacoco  start -->
                     <argLine>
                         ${argLine}
                     </argLine>
+                    <!-- jacoco  end -->
                     <systemProperties>
                         <property>
                             <name>junit.jupiter.extensions.autodetection.enabled</name>

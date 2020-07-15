@@ -1,0 +1,71 @@
+{
+  "uid" : "39b8d279e714a43a",
+  "name" : "contextLoad()",
+  "fullName" : "com.ahianzhang.xp.demo.DemoApplicationTests.contextLoad",
+  "historyId" : "d4210c49800fd1f10a35189386010a1c",
+  "time" : {
+    "start" : 1594787478548,
+    "stop" : 1594787479713,
+    "duration" : 1165
+  },
+  "description" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az60"
+  }, {
+    "name" : "thread",
+    "value" : "3595@fv-az60.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.ahianzhang.xp.demo.DemoApplicationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ahianzhang.xp.demo.DemoApplicationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "contextLoad"
+  }, {
+    "name" : "suite",
+    "value" : "com.ahianzhang.xp.demo.DemoApplicationTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "109d2c34907dffa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594787459268,
+        "stop" : 1594787460506,
+        "duration" : 1238
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39b8d279e714a43a.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

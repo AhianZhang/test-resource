@@ -6,22 +6,22 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "time" : {
-      "start" : 1594383617842,
-      "stop" : 1594383620557,
-      "duration" : 2715,
+      "start" : 1594787473947,
+      "stop" : 1594787479713,
+      "duration" : 5766,
       "minDuration" : 3,
-      "maxDuration" : 396,
-      "sumDuration" : 947
+      "maxDuration" : 1165,
+      "sumDuration" : 2188
     }
   },
   "environment" : [ ],
   "suites" : {
-    "total" : 3,
+    "total" : 4,
     "items" : [ {
       "uid" : "ead6ea44a34b800d29d82def8781033a",
       "name" : "com.ahianzhang.xp.demo.user.UserServiceTest",
@@ -55,6 +55,17 @@
         "unknown" : 0,
         "total" : 2
       }
+    }, {
+      "uid" : "4afe1918407d8200d836ef7599260afd",
+      "name" : "com.ahianzhang.xp.demo.DemoApplicationTests",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
     } ]
   },
   "history-trend" : [ {
@@ -62,13 +73,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     }
   } ],
   "behaviors" : {
-    "total" : 3,
+    "total" : 4,
     "items" : [ {
       "uid" : "9fc2d0790d7ce1c64eca69b942f55e60",
       "name" : "业务逻辑层",

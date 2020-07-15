@@ -4,25 +4,25 @@
     "name" : "数据访问层",
     "children" : [ {
       "name" : "should_pass_when_insert_new_user()",
-      "uid" : "d3a7167f3cd29bbf",
+      "uid" : "f344a28f06da4013",
       "parentUid" : "273e5d575c34ac293419c8a66abeee2c",
       "status" : "passed",
       "time" : {
-        "start" : 1594383617842,
-        "stop" : 1594383618138,
-        "duration" : 296
+        "start" : 1594787473947,
+        "stop" : 1594787474282,
+        "duration" : 335
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_return_users_when_query_all_user()",
-      "uid" : "2e3f694ba6537e4b",
+      "uid" : "f77de4942edb4fc5",
       "parentUid" : "273e5d575c34ac293419c8a66abeee2c",
       "status" : "passed",
       "time" : {
-        "start" : 1594383618265,
-        "stop" : 1594383618307,
-        "duration" : 42
+        "start" : 1594787474391,
+        "stop" : 1594787474432,
+        "duration" : 41
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -32,36 +32,36 @@
     "name" : "业务逻辑层",
     "children" : [ {
       "name" : "should_return_user_list_when_get_all_user()",
-      "uid" : "e9604b69356764b0",
+      "uid" : "ad46f37154577b66",
       "parentUid" : "9fc2d0790d7ce1c64eca69b942f55e60",
       "status" : "passed",
       "time" : {
-        "start" : 1594383618337,
-        "stop" : 1594383618733,
-        "duration" : 396
+        "start" : 1594787474455,
+        "stop" : 1594787474858,
+        "duration" : 403
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_affect_1_row_when_save_a_user()",
-      "uid" : "b231f1e604e4371f",
+      "uid" : "7fd20782e0722302",
       "parentUid" : "9fc2d0790d7ce1c64eca69b942f55e60",
       "status" : "passed",
       "time" : {
-        "start" : 1594383618736,
-        "stop" : 1594383618739,
+        "start" : 1594787474862,
+        "stop" : 1594787474865,
         "duration" : 3
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_get_IllegalArgumentException_when_user_is_null()",
-      "uid" : "3b4cc5550848c4d1",
+      "uid" : "628c94ce18ed5605",
       "parentUid" : "9fc2d0790d7ce1c64eca69b942f55e60",
       "status" : "passed",
       "time" : {
-        "start" : 1594383618741,
-        "stop" : 1594383618747,
+        "start" : 1594787474868,
+        "stop" : 1594787474874,
         "duration" : 6
       },
       "flaky" : false,
@@ -72,30 +72,42 @@
     "name" : "Restful Api",
     "children" : [ {
       "name" : "should_get_user_list_when_get_all_user()",
-      "uid" : "3bc2908cf84ea200",
+      "uid" : "96f46935742a5321",
       "parentUid" : "2aefffbfd8a6a13045d544203b16baef",
       "status" : "passed",
       "time" : {
-        "start" : 1594383620348,
-        "stop" : 1594383620468,
-        "duration" : 120
+        "start" : 1594787476738,
+        "stop" : 1594787476871,
+        "duration" : 133
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "should_return_affect_rows_when_post_users()",
-      "uid" : "979c1dcfcc4d0522",
+      "uid" : "ddabc33c553e68b",
       "parentUid" : "2aefffbfd8a6a13045d544203b16baef",
       "status" : "passed",
       "time" : {
-        "start" : 1594383620473,
-        "stop" : 1594383620557,
-        "duration" : 84
+        "start" : 1594787476884,
+        "stop" : 1594787476986,
+        "duration" : 102
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "2aefffbfd8a6a13045d544203b16baef"
+  }, {
+    "name" : "contextLoad()",
+    "uid" : "39b8d279e714a43a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1594787478548,
+      "stop" : 1594787479713,
+      "duration" : 1165
+    },
+    "flaky" : false,
+    "parameters" : [ ]
   } ],
   "name" : "behaviors"
 }
